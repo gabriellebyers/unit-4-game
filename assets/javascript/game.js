@@ -28,7 +28,7 @@ function reset(){
     computernumber = Math.floor(Math.random() * (120-19)+19); 
 
     console.log("computer chose:" + computernumber);
-    $("#computernumber-text").text(computernumber);
+    $("#computernumber-text").text("Random Number: " + computernumber);
 
     C1 = Math.floor(Math.random() * (11)+1); 
     C2 = Math.floor(Math.random() * (11)+1); 

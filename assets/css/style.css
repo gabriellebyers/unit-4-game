@@ -1,0 +1,67 @@
+body {
+    /* Box-model */
+    padding: 0;
+  
+    /* Positioning */
+    margin: 0 auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    max-width: 960px;
+  
+    /* Typography */
+    font-size: 18px;
+    line-height: 100%;
+    color: #333;
+  
+    /* Visual */
+    background: url("../images/background.jpg") }
+  
+ h1 {
+    background: lightskyblue;
+    font-size: 36px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  p {
+      background: lightgoldenrodyellow;
+      padding: 15px;
+  }
+
+  #computernumber-text {
+      background-color: mediumaquamarine;
+      padding: 10px;
+      font-weight: 700;
+      font-size: 22px;
+  
+  }
+
+  #wins-text {
+      background-color: mediumorchid;
+      padding: 10px;
+     
+  }
+  #losses-text {
+    background-color: mediumorchid;
+    padding: 10px;
+} 
+
+.crystal {
+    height: 200px;
+    width: 200px;
+}
+
+#score-header {
+     background-color: lightpink;
+     padding: 10px;
+}
+
+#score {
+    background-color: lightpink;
+    padding-left: 40px;
+     padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+  
